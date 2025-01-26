@@ -1,0 +1,59 @@
+--------------- PROJETO 14: aplicação de gerenciamento de biblioteca -----------------------
+
+Para execução do programa execute o arquivo 'main.py', é necessário ter python instalado na
+maquina para rodar o programa.
+
+O programa já possui uma lista para teste:
+
+# Criando 5 livros
+livro1 = Livro("1984", "George Orwell", '1')
+livro2 = Livro("O Aleph", "Jorge Luis Borges", '2')
+livro3 = Livro("O Enfermeiro", "Machado de Assis", '3')
+livro4 = Livro("Nem Sinal de Asas", "Marcela Dantés", '4')
+livro5 = Livro("Recalculando a Rota", "Aimee Oliveira", '5')
+
+# Criando 5 membros
+membro1 = Membro("Carlos", '123')
+membro2 = Membro("Ana", '124')
+membro3 = Membro("Pedro", '125')
+membro4 = Membro("Joana", '126')
+membro5 = Membro("Marcos", '127')
+
+------------- 	DESCRIÇÃO DO PROGRAMA ------------------------------------------------------
+
+# Criar uma aplicação de gerenciamento de biblioteca com
+# classes e POO para representar livros, membros e a biblioteca.
+#
+# Passos do projeto:
+#
+# Criação de Classes:
+# Crie as seguintes classes: Livro, Membro, Biblioteca.
+#
+# Classe Livro:
+# A classe Livro deve conter atributos como título, autor, ID,
+# status de empréstimo (disponível ou emprestado).
+#
+# Classe Membro:
+#
+# A classe Membro deve conter atributos como nome,
+# número do membro e histórico de livros emprestados.
+#
+# Classe Biblioteca:
+#
+# A classe Biblioteca deve conter um catálogo de livros
+# disponíveis, um registro de membros e métodos para
+# empréstimo, devolução e pesquisa de livros.
+#
+# PROJETO
+#
+# Operações da Biblioteca:
+#
+# Implemente métodos na classe Biblioteca para:
+#
+# Adicionar livros ao catálogo.
+# Adicionar membros à biblioteca.
+# Permitir empréstimo de livros por
+# membros.
+# Registrar a devolução de livros.
+# Pesquisar livros por título, autor ou ID.
+
